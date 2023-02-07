@@ -35,6 +35,7 @@ The voltage connected to the ATtiny85 will be 5V.
 To ensure that voltage entering the ATtiny85 remains at 5V and not larger, 3.6V voltage regulators will be placed near the PB3 and PB4 pins of the ATtiny85 to act as voltage regulators for the board.
 These zener diodes are able to ensure that the microcontroller can fully run on 5V power as they limit the USB voltage output.
 Also please ensure that the voltage used during testing purposes is limited to 5V, and that all electrical component (i.e. Diodes, Capacitors, etc...) are placed in the correct orientation for current flow.
+ALSO DOWNLOAD DIGIKEY X KICAD LIBRARY!!
 ### References:
 - [Stefan Wagner Git] (https://github.com/wagiminator)
 - [IR2USB Wiring] (https://raw.githubusercontent.com/wagiminator/ATtiny85-IR2USB/main/documentation/IR2USB_wiring.png)
