@@ -41,6 +41,6 @@ ALSO DOWNLOAD DIGIKEY X KICAD LIBRARY!!
 - [IR2USB Wiring] (https://raw.githubusercontent.com/wagiminator/ATtiny85-IR2USB/main/documentation/IR2USB_wiring.png)
 - [IR2USB Repository] (https://github.com/wagiminator/ATtiny85-IR2USB/commit/2459adeddc2d69f14432a9166a96c19850a03573) - Arduino code
 - [VUSB] (https://www.obdev.at/products/vusb/index.html) - VUSB Libary for Arduino
-- [ATtin85 Data Sheet] (https://www.mouser.com/datasheet/2/268/Atmel_2586_AVR_8_bit_Microcontroller_ATtiny25_ATti-1315542.pdf)
+- [ATtiny85 Data Sheet] (https://www.mouser.com/datasheet/2/268/Atmel_2586_AVR_8_bit_Microcontroller_ATtiny25_ATti-1315542.pdf)
 - [IR Receiver Datasheet] (http://eeshop.unl.edu/pdf/VS1838-Infrared-Receiver-datasheet.pdf)
 - [USB Datasheet] (https://www.amphenol-cs.com/media/wysiwyg/files/drawing/10118194.pdf)
