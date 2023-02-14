@@ -3,14 +3,14 @@
 Theory Documentation : Advanced PCB Layout
 
 
-### Purpose:
+## Purpose:
 
 The Infrared Keyboard is used as a first printed circuit board creation project. 
 The Infrared Keyboard will allow infrared light to transmit data to a personal computer rather than transmitting through a traditional hardwired connection.
 This keyboard will utilize the Attiny85-20SU microcontroller, USB power 10119194-001LF, and infrared receiver vs1838b.
 
 
-### How does it work?
+## How does it work?
 
 As stated above the Infrared Keyboard will allow infrared light to transmit data to a personal computer rather than transmitting through a traditional hardwired connection.
 The ATtiny85 will control the IR receiver's input and output through the RCV LED shown in the IR_Schematic. 
@@ -18,7 +18,7 @@ The RCV LED will turn on when a signal is received from the receiver.
 Similarly, a PWR LED will be 
 
 
-### Electrical Connections:
+## Electrical Connections:
 
 All pinnout connections within this schematic have been made according to component data sheets made in the reference section below. 
 Voltage input and ground connections are connected properly to the ATtiny85, which is shown on page 2 of the ATtiny85 data sheet.
@@ -33,7 +33,7 @@ Shunt Capacitors are connected to pin 8, Vcc pin of the ATtiny85, to prevent hig
 Additionally the reset pin is set to pin 8 of the ATtiny85 to set the reset pin as high.
 
 
-### Programmer:
+## Programmer:
 
 While programming the ATtiny85, use the IR2USB_Keyboard.ino and the IR2USB_Serial.ino found on Stefan Wagner's github repository listed in reference below.
 Pins that need to be programmed through arduino or the Analog Discovery2 are as listed: PB5, PB3, PB4, and PB2. 
@@ -42,7 +42,7 @@ Please make sure you BURN THE BOOTLOADER!
 You want your ATtiny85 to have code if it is a SMT component.
 
 
-#### Side note:
+### Side note:
 
 The ATtiny85 will be in control of the keyboard, so its placement was made towards the middle of the schematic / PCB due to preference.
 This is shown through the IRKeyboard_Schematic, as well as much of the rest of the schematic was placed in the correct orientation as will be placed in the PCB.
@@ -53,7 +53,7 @@ These zener diodes are able to ensure that the microcontroller can fully run on 
 Also please ensure that the voltage used during testing purposes is limited to 5V, and that all electrical component (i.e. Diodes, Capacitors, etc...) are placed in the correct orientation for current flow.
 ALSO DOWNLOAD DIGIKEY X KICAD LIBRARY!!
 
-### References:
+## References:
 - [Stefan Wagner Git] (https://github.com/wagiminator)
 - [IR2USB Wiring] (https://raw.githubusercontent.com/wagiminator/ATtiny85-IR2USB/main/documentation/IR2USB_wiring.png)
 - [IR2USB Repository] (https://github.com/wagiminator/ATtiny85-IR2USB/commit/2459adeddc2d69f14432a9166a96c19850a03573) - Arduino code
