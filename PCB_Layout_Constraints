@@ -1,2 +1,19 @@
 # Project1_IRKeyboard
-###PCB Layout Constraints Document
+PCB Layout Constraints Document
+
+System Requirements: The function of the IRKeyboard PCB is to 
+
+Electrical Requirements:
+
+Physical Constraints:
+
+Layer Stackup:
+
+Design Rules:
+
+Manufacturing Requirements:
+
+Additional Requirements:
+Reduced trace stubs, Differential Pair mismatch length of about 0.5 inch will produce a phase mialignment of less than 100 picoseconds, which should be
+acceptable because of the low GPIO sampling rate on the GPIO pins. Impedance matching purposes you will need to reroute the differential pair, when they are routed
+in parallel that will drop the impedance of each individual trace. Because the impedance depends on the spacing of the traces and their height above the ground plane.
