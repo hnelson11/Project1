@@ -1,7 +1,9 @@
 # Project1_IRKeyboard
 PCB Layout Constraints Document
 
-System Requirements: The function of the IRKeyboard PCB is to 
+System Requirements: The function of the IRKeyboard PCB is to provide a USB connection to a personal computer, 
+where the IR receiver can receive signal transmitted by the IR keyboard. This PCB does substitute for an IR keyboard,
+but it will allow the IR keyboard to transmit data to the personal computer. The board is 
 
 Electrical Requirements:
 
