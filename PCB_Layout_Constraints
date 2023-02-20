@@ -1,21 +1,28 @@
 # Project1_IRKeyboard
-PCB Layout Constraints Document
+PCB Layout Constraints Document: IN PROGRESS
 
-System Requirements: The function of the IRKeyboard PCB is to provide a USB connection to a personal computer, 
-where the IR receiver can receive signal transmitted by the IR keyboard. This PCB does substitute for an IR keyboard,
-but it will allow the IR keyboard to transmit data to the personal computer. The board is 
+System Requirements: 
+The function of the IRKeyboard PCB is to provide a USB connection to a personal computer, 
+where the IR receiver can receive signal transmitted by the IR keyboard. This PCB does not substitute for an IR keyboard,
+but it will allow the IR keyboard to transmit data to the personal computer. The board is able to provide a 
 
 Electrical Requirements:
 
+
 Physical Constraints:
 
+
 Layer Stackup:
+A single layer PCB was used for this design, because a single layer PCB is able to be laser cut. A ground fill was added to the top layer of the board to ensure all
+traces stay on a single side of the PCB to create a single layer PCB.
 
 Design Rules:
+The USB contains D- and D+ pins, which is a differential pair. With a differential pair trace lengths must match as close as possible. For this particular PCB, routed
+trace length was kept below 0.5 inch. Keeping this length below 0.5 inch produces a phase misalignment of less than 100 picoseconds. This misalignment is acceptable 
+due to the low GPIO sampling rate on the GPIO pins. The differential pair must also be routed parallel to each other to drop the overall impedance of each individual 
+trace. Impedance in this case depends on the spacing of the traces and the differential pair's height above the ground plane. 
+
+Note: A clean ERC and DRC are required before design can be manufactured.
 
 Manufacturing Requirements:
-
-Additional Requirements:
-Reduced trace stubs, Differential Pair mismatch length of about 0.5 inch will produce a phase mialignment of less than 100 picoseconds, which should be
-acceptable because of the low GPIO sampling rate on the GPIO pins. Impedance matching purposes you will need to reroute the differential pair, when they are routed
-in parallel that will drop the impedance of each individual trace. Because the impedance depends on the spacing of the traces and their height above the ground plane.
+A single sided PCB will be manufactured for this design using a laser cutter.
