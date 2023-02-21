@@ -1,1 +1,33 @@
+Schematic External Design Report
 
+Define the design requirements: Start by defining the requirements for the electronic circuit, including any performance specifications, 
+environmental constraints, and other factors that might impact the design.
+
+Design Requirements: 
+
+Circuit Topology:
+Schematic was designed using KiCAD 6.0. Components used in circuit design 
+
+Components used in schematic:
+
+Circuit Analysis:
+
+Power Requirements:
+
+Create the circuit topology: Develop a schematic diagram of the electronic circuit, using a software tool such as Altium, Eagle, or KiCAD. Clearly label all components,
+signals, and power supplies.
+
+Select components: Choose the appropriate components for the circuit, taking into account factors such as cost, availability, performance, and compatibility
+with other components.
+
+Analyze the circuit: Use simulation tools to analyze the circuit and verify that it meets the design requirements. Evaluate performance metrics such as gain, 
+bandwidth, noise, and distortion.
+
+Design the power supply: Determine the power supply requirements for the circuit and design the necessary power supply circuitry. Consider issues such as voltage 
+regulation, filtering, and protection.
+
+Document the design: Create a detailed report that documents the design process, including the design requirements, circuit topology, component selection, 
+simulation results, and power supply design. Include any relevant diagrams, charts, or tables that help to illustrate the design.
+
+Review and revise: Have the design reviewed by others to ensure that it meets all necessary requirements and is free of errors. Revise the design as needed 
+based on feedback.
